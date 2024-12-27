@@ -19,7 +19,7 @@ public class TC002_LoginTest extends BaseClass{
 	@Test(groups={"Sanity", "Master"})
 	public void verifyLogin() throws IOException {
 		
-//		logger.info("Testcase started");
+		logger.info("Testcase started");
 		
 		try {
 		HomePage homePage = new HomePage(driver);
